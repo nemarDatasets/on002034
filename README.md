@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on002034-blue)](https://doi.org/10.82901/nemar.on002034)
+
 This dataset contains the EEG recordings used in the paper: "Real-time EEG Feedback on Alpha Power Lateralization Leads to Behavioral Improvements in a Covert Attention Task" (Schneider, C., Pereira, M., Tonin, L. et al. Brain Topogr (2019). https://doi.org/10.1007/s10548-019-00725-9)
 
 Participants:
