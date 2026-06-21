@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Real-time EEG feedback on alpha power lateralization leads to behavioral improvements in a covert attention task",
+  "description": "This dataset contains EEG recordings from 14 healthy participants performing a covert attention task with real-time neurofeedback based on alpha power lateralization. The study investigates whether real-time EEG feedback on alpha power lateralization can lead to behavioral improvements in a covert attention task, employing a single-blinded crossover design comparing real versus sham feedback conditions across three recording sessions.",
+  "methods_description": "EEG was recorded using a 64-channel active HIamp amplifier (g.tec) at 512 Hz, referenced to linked ears with ground at FCz, positioned according to the international 10-10 system. The experimental paradigm involved three recording sessions across different days. Session 1 included practice and four offline calibration runs (80 trials each). Sessions 2 and 3 employed a single-blinded crossover design with offline runs (80 trials each) at the beginning and end, and two real-time feedback runs (40 trials each) in the middle, alternating between real and sham alpha-power lateralization index feedback.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -12,12 +14,27 @@
     "Luca Tonin": {},
     "Jose del R. Millan": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds002034.v1.0.3",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "neurofeedback"
+    },
+    {
+      "term": "alpha power lateralization"
+    },
+    {
+      "term": "covert attention"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "real-time feedback"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "10.1007/s10548-019-00725-9",
       "identifier_type": "DOI",
@@ -32,6 +49,11 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on002034",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds002034.v1.0.3",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -39,63 +61,20 @@
       "funder_name": "No external funding sources"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "10.8 GB (168 files)"
   ],
   "formats": [
     ".edf",
     ".gitattributes",
     ".json",
     ".md",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "This dataset contains EEG recordings from 14 healthy participants performing a covert attention task with real-time neurofeedback based on alpha power lateralization. The study investigates whether real-time EEG feedback on alpha power lateralization can improve behavioral performance in a sustained attention task, employing a single-blinded crossover design comparing real versus sham feedback conditions across three recording sessions.",
-  "methods_description": "EEG was recorded using a 64-channel active HIamp amplifier (g.tec) at 512 Hz, referenced to linked ears with ground at FCz, using the international 10-10 electrode positioning system. The experimental protocol consisted of three recording sessions across different days. Each session included offline calibration runs (no feedback) and real-time feedback runs in a crossover design comparing real alpha-power lateralization index feedback versus sham feedback. Participants performed a covert attention task with visual cues indicating left, right, or central attention targets, responding to target detection with button presses. The study was approved under ethical protocol No PB_2017-00295 of the ethics commissions of the cantons of Vaud and Geneva, Switzerland and complied with the standards of the Declaration of Helsinki.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "neurofeedback"
-    },
-    {
-      "term": "alpha oscillations"
-    },
-    {
-      "term": "attention"
-    },
-    {
-      "term": "brain-computer interfaces"
-    },
-    {
-      "term": "real-time feedback"
-    },
-    {
-      "term": "covert attention"
-    },
-    {
-      "term": "lateralization"
-    },
-    {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH"
-    },
-    {
-      "term": "Attention",
-      "subject_scheme": "MeSH"
-    },
-    {
-      "term": "Feedback, Sensory",
-      "subject_scheme": "MeSH"
-    },
-    {
-      "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH"
-    }
-  ],
-  "source_hash": "1dc55dfee90518e026868c970b56a00d3880a060cb5a7eaa24594ec2b921543a"
+  "source_hash": "777a61d5a1fa3dc12243247dbd7f01929bfefd7f6f1e25fa9ed22358cebebc39"
 }
