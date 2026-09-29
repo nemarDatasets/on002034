@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Real-time EEG feedback on alpha power lateralization leads to behavioral improvements in a covert attention task",
-  "description": "This dataset contains EEG recordings from 14 healthy participants performing a covert attention task with real-time neurofeedback based on alpha power lateralization. The study investigates whether real-time EEG feedback on alpha power lateralization can lead to behavioral improvements in a covert attention task, employing a single-blinded crossover design comparing real versus sham feedback conditions across three recording sessions.",
-  "methods_description": "EEG was recorded using a 64-channel active HIamp amplifier (g.tec) at 512 Hz, referenced to linked ears with ground at FCz, positioned according to the international 10-10 system. The experimental paradigm involved three recording sessions across different days. Session 1 included practice and four offline calibration runs (80 trials each). Sessions 2 and 3 employed a single-blinded crossover design with offline runs (80 trials each) at the beginning and end, and two real-time feedback runs (40 trials each) in the middle, alternating between real and sham alpha-power lateralization index feedback.",
+  "description": "EEG recordings from fourteen healthy participants performing a covert spatial attention task across three sessions. The study tested real-time feedback of alpha power lateralization (α-LI) versus sham feedback in a single-blinded crossover design. It examined whether such neurofeedback leads to behavioral improvements in attention.",
+  "methods_description": "64-channel active g.tec HIamp EEG recorded at 512 Hz, referenced to linked ears, with electrodes placed per the 10-10 system and ground at FCz. Three sessions on separate days: day one had practice and four offline calibration runs; days two and three had offline runs plus real-time or sham α-LI feedback runs in a crossover design. Participants responded to target-offset events with a right index finger button press.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -19,10 +19,10 @@
       "term": "EEG"
     },
     {
-      "term": "neurofeedback"
+      "term": "alpha power lateralization"
     },
     {
-      "term": "alpha power lateralization"
+      "term": "neurofeedback"
     },
     {
       "term": "covert attention"
@@ -31,14 +31,16 @@
       "term": "brain-computer interface"
     },
     {
-      "term": "real-time feedback"
+      "term": "Attention",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001288"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "10.1007/s10548-019-00725-9",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "https://github.com/nemarDatasets/on002034",
@@ -46,14 +48,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on002034",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds002034.v1.0.3",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on002034",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -66,7 +68,7 @@
     "eeg"
   ],
   "sizes": [
-    "10.8 GB (168 files)"
+    "10.10 GB (168 files)"
   ],
   "formats": [
     ".edf",
